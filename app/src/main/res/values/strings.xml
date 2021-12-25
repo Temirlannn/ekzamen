@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">practically</string>
+    <string name="app_name">practicalNews</string>
+
+
+    <string name="News">Новости</string>
+    <string name="Sports">Спорт</string>
+
+
+    <string name="categories">Категории</string>
+
+
+    <string name="RecyclerNews" translatable="false">RecyclerNews</string>
+    <string name="weather" translatable="false">Погода</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
