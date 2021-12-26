@@ -12,7 +12,6 @@ class CategoryAdapter(private val array: ArrayList<CategoryModel>,val listener: 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val title = view.findViewById<TextView>(R.id.itemCategory)
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.item_category, parent, false)
@@ -26,8 +25,6 @@ class CategoryAdapter(private val array: ArrayList<CategoryModel>,val listener: 
         holder.itemView.setOnClickListener {
             listener.categoryClicked(item)
         }
-
-
     }
 
     override fun getItemCount(): Int {

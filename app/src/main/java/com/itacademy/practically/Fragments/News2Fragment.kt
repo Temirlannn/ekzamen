@@ -42,7 +42,7 @@ class News2Fragment: Fragment() {
 
         when (news.category) {Categories.weather -> newsContainer.background =
             ColorDrawable(ContextCompat.getColor(requireContext(), R.color.purple_200))
-            Categories.Sport -> newsContainer.background =      ColorDrawable(ContextCompat.getColor(requireContext(), R.color.red))
+            Categories.Sport -> newsContainer.background = ColorDrawable(ContextCompat.getColor(requireContext(), R.color.red))
         }
         return view
     }
